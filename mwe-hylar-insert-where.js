@@ -39,5 +39,10 @@ Hylar.load(emptyOntology, mimeType).then(function (response) {
   //   at flush (/home/raph/code/mwe-hylar-insert-where/node_modules/q/q.js:125:13)
   //   at _combinedTickCallback (internal/process/next_tick.js:67:7)
   //   at process._tickCallback (internal/process/next_tick.js:98:9)
+
+  // ---------------------------------------------------------------------------
+  // at Hylar.query (/home/raph/code/mwe-hylar-insert-where/node_modules/hylar/hylar/hylar.js:188:48)
+  // > sparql.updates[i].updateType
+  // < "insertdelete"
 })
 
